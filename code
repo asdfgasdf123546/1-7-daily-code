@@ -1,0 +1,24 @@
+#asks a user for how many lines they cleared in Tetris
+
+Score = int(input("how many lines have you cleared in tetris?")) #gets Score from user and stores it in Score
+if Score < 100:
+    print("Novice")
+elif Score < 200:
+    print("Intermediate")
+elif Score < 300:
+    print("Advance")
+else:
+    print("Expert")
+
+
+
+
+
+for i in range(2, 80, 10): #counts up by 10, starts at 2, ends at 80
+    print(i, end = " ")
+    
+
+
+
+for i in range(100, 10, -5): # counts by -5 starts at 100, ends at 10S
+    print(i, end = " ")
